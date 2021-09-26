@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.976471 0 0 0 0 0.603922 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="latest-version" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="High-fid-wire---about-assurity---our-board-&amp;-management-team" transform="translate(-794.000000, -1665.000000)">
+            <g id="Group-2" transform="translate(239.000000, 652.000000)" filter="url(#filter-1)">
+                <g transform="translate(557.000000, 1015.000000)">
+                    <line x1="0.52" y1="0.548571429" x2="7.8" y2="7.13142857" id="Line-2" stroke="#979797" stroke-width="4"></line>
+                    <line x1="8.2" y1="0.548571429" x2="15.48" y2="7.13142857" id="Line-2-Copy" stroke="#979797" stroke-width="4" transform="translate(11.840000, 3.840000) scale(-1, 1) translate(-11.840000, -3.840000) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
