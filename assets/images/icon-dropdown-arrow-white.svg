@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dropdown arrow</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="dropdown-arrow" transform="translate(-635.000000, -66.000000)" filter="url(#filter-1)">
+            <g transform="translate(636.000000, 67.000000)">
+                <line x1="0.366666667" y1="0.5" x2="5.5" y2="6.5" id="Line-2" stroke="#979797" stroke-width="2"></line>
+                <line x1="5.5" y1="0.5" x2="10.6333333" y2="6.5" id="Line-2-Copy" stroke="#979797" stroke-width="2" transform="translate(8.066667, 3.500000) scale(-1, 1) translate(-8.066667, -3.500000) "></line>
+            </g>
+        </g>
+    </g>
+</svg>
