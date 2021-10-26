@@ -1,6 +1,6 @@
 AOS.init();
 
-$('.last-updated').text("27 September 2021");
+$('.last-updated').text("26 October 2021");
 
 $(window).scroll(function () {
     var yvalue = $(this).scrollTop() * 0.1;
