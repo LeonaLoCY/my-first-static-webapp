@@ -965,6 +965,16 @@ footer{
 	margin-left: 10px;
 }
 
+.about-nca-logo{
+	display: flex;
+	margin-bottom: 30px;
+}
+.about-nca-logo img{
+	width: 80px;
+	object-fit: contain;
+	margin-right: 20px;
+}
+
 .section-desc{
 	font-size: 16px;
 	font-weight: 300;
@@ -978,7 +988,7 @@ footer{
 }
 .page-about #img-float-2{
 	position: absolute;
-  top: 1400px;
+  top: 1550px;
   left: -90px;
   width: 300px;
   z-index: 10;
@@ -1068,9 +1078,30 @@ footer{
 	height: 70px;
 }
 
+.page-about #section-4{
+	background: #ffffff;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.page-about .carousel-item .section-title{
+	color: var(--font-dark);
+}
+.page-about .carousel-item img{
+	width: 200px;
+	height: 150px;
+	object-fit: contain;
+}
+.page-about .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23505050'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.page-about .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23505050'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
 @media only screen and (max-width: 767px){
 	.page-about #img-float-1 {
-    top: 2400px;
+    top: 2500px;
 	}
 	.page-about #img-float-2 {
     top: 1200px;
@@ -1089,7 +1120,7 @@ footer{
 		height: 800px;
 	}
 	.page-about #img-float-1 {
-    top: 2400px;
+    top: 2500px;
 	}
 	.page-about #img-float-2 {
     top: 1350px;
@@ -2049,6 +2080,10 @@ a.tag{
 	}
 	.video-wrapper{
 		overflow-x: hidden;
+	}
+	.page-events #section-2 {
+    padding-left: 20px;
+    padding-right: 20px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
