@@ -1074,7 +1074,7 @@ footer{
 }
 .vision-bg{
 	position: absolute;
-	bottom: 0;
+	bottom: 20px;
 	height: 70px;
 }
 
@@ -1111,7 +1111,7 @@ footer{
 		width: 80px !important;
 	}
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px){
+@media only screen and (max-width: 1024px) and (min-width: 769px){
 	.page-about #img-float-2 {
     top: 1030px;
 		left: 50px;
@@ -1213,9 +1213,13 @@ footer{
 		width: 45% !important;
 	}
 }
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 1600px) {
 	.section-desc{
 		font-size: 16px;
+	}
+
+	.page-about #img-float-2 {
+    top: 1500px;
 	}
 }
 
