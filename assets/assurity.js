@@ -1,6 +1,6 @@
 AOS.init();
 
-$('.last-updated').text("27 September 2021");
+$('.last-updated').text("22 December 2021");
 
 $(window).scroll(function () {
     var yvalue = $(this).scrollTop() * 0.1;
@@ -19,10 +19,19 @@ function() {
     $(this).removeClass('show');
 });
 
-var masonryOptions = {
+if ($(window).width()>1600) {
+  var masonryOptions = {
+   columnWidth: 600,
+   itemSelector: '.grid-item'
+  };
+}
+else{
+  var masonryOptions = {
    columnWidth: 500,
    itemSelector: '.grid-item'
-};
+  };
+}
+
 $(window).on("load", function() {
     var $grid1 = $('#tab1-content').masonry(masonryOptions);
     var $grid2 = $('#tab2-content').masonry(masonryOptions);
@@ -76,11 +85,11 @@ function displaySelectedJobs(cases){
   });
 }
 var jobsContainedInCategories = {cat1 : "9-10-12-13-15", 
-                                cat2 : "1-2-3-4-7-8-11-14",
+                                cat2 : "1-2-3-4-6-7-8-11-14-16-17-18-19",
                                 cat3 : "",
-                                cat4 : "5",
-                                cat5 : "16",
-                                cat6 : "6"};
+                                cat4 : "",
+                                cat5 : "",
+                                cat6 : ""};
 $('.page-join .filter-cat').click(function(){
   var catID = $(this).attr('id').replace("-", "");
   $('#dropdown-cat-label').text($(this).text());
@@ -107,41 +116,45 @@ function displaySelectedTestimonials(cases){
   });
 }
 var peopleContainedInProducts = {product1 : "3-4-5", 
-                                product2 : "1-2-3-4-5-6-7-8-9",
-                                product3 : "1"};
+                                product2 : "1-2-3-4-5-6-7-8-9-11",
+                                product3 : "1",
+                                product4 : "10"};
 var peopleContainedInProductsM = {fp1 : "3-4-5", 
-                                fp2 : "1-2-3-4-5-6-7-8-9",
-                                fp3 : "1"};
+                                fp2 : "1-2-3-4-5-6-7-8-9-11",
+                                fp3 : "1",
+                                fp4 : "10"};
 var peopleContainedInSectors = {sector1 : "5", 
                                 sector2 : "2",
                                 sector3 : "3",
                                 sector4 : "4",
-                                sector5 : "6",
+                                sector5 : "6-10",
                                 sector6 : "1",
                                 sector7 : "7",
                                 sector8 : "8",
-                                sector9 : "9"};
+                                sector9 : "9",
+                                sector10 : "11"};
 var peopleContainedInSectorsM = {fs1 : "5", 
                                 fs2 : "2",
                                 fs3 : "3",
                                 fs4 : "4",
-                                fs5 : "6",
+                                fs5 : "6-10",
                                 fs6 : "1",
                                 fs7 : "7",
                                 fs8 : "8",
-                                fs9 : "9"};
+                                fs9 : "9",
+                                fs10 : "11"};
 var peopleContainedInUseCase = {usecase1 : "3-4-5", 
                                 usecase2 : "3-4-5",
                                 usecase3 : "1-2-3-4-5-6-7-8-9",
-                                usecase4 : "1-2-3-4-5-6-7-8-9",
+                                usecase4 : "1-2-3-4-5-6-7-8-9-11",
                                 usecase5 : "1",
-                                usecase6 : "1" };
+                                usecase6 : "10"};
 var peopleContainedInUseCaseM = {fuc1 : "3-4-5", 
                                 fuc2 : "3-4-5",
-                                fuc3 : "1-2-3-4-5-6-7-8-9",
-                                fuc4 : "1-2-3-4-5-6-7-8-9",
+                                fuc3 : "1-2-3-4-5-6-7-8-9-10",
+                                fuc4 : "1-2-3-4-5-6-7-8-9-11",
                                 fuc5 : "1",
-                                fuc6 : "1" };
+                                fuc6 : "10"};
 
 $('.page-testimonial .filter-product').click(function(){
   clearCSFilters();
@@ -502,10 +515,12 @@ $('.readmore').on("click", function(){
     newHeight = defaultMemberDescHeight;
     member.removeClass("extend");
     $('#caret-'+idArr[1]).removeClass("extend");
+    $('#read-'+idArr[1]).html($('#read-'+idArr[1]).html().replace('Read Less', 'Read More'));
   } else {
     newHeight = textHeight;
     member.addClass("extend");
     $('#caret-'+idArr[1]).addClass("extend");
+    $('#read-'+idArr[1]).html($('#read-'+idArr[1]).html().replace('Read More', 'Read Less'));
   }
   member.animate({
     "max-height": newHeight
