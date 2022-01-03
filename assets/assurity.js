@@ -1,6 +1,6 @@
 AOS.init();
 
-$('.last-updated').text("22 December 2021");
+$('.last-updated').text("3 January 2022");
 
 $(window).scroll(function () {
     var yvalue = $(this).scrollTop() * 0.1;
@@ -115,12 +115,12 @@ function displaySelectedTestimonials(cases){
     $('#testimonial-'+entry).removeClass('disnone');
   });
 }
-var peopleContainedInProducts = {product1 : "3-4-5", 
-                                product2 : "1-2-3-4-5-6-7-8-9-11",
+var peopleContainedInProducts = {product1 : "3-4-5-12", 
+                                product2 : "1-2-3-4-5-6-7-8-9-11-12",
                                 product3 : "1",
                                 product4 : "10"};
-var peopleContainedInProductsM = {fp1 : "3-4-5", 
-                                fp2 : "1-2-3-4-5-6-7-8-9-11",
+var peopleContainedInProductsM = {fp1 : "3-4-5-12", 
+                                fp2 : "1-2-3-4-5-6-7-8-9-11-12",
                                 fp3 : "1",
                                 fp4 : "10"};
 var peopleContainedInSectors = {sector1 : "5", 
@@ -132,7 +132,8 @@ var peopleContainedInSectors = {sector1 : "5",
                                 sector7 : "7",
                                 sector8 : "8",
                                 sector9 : "9",
-                                sector10 : "11"};
+                                sector10 : "11",
+                                sector11 : "12"};
 var peopleContainedInSectorsM = {fs1 : "5", 
                                 fs2 : "2",
                                 fs3 : "3",
@@ -142,16 +143,17 @@ var peopleContainedInSectorsM = {fs1 : "5",
                                 fs7 : "7",
                                 fs8 : "8",
                                 fs9 : "9",
-                                fs10 : "11"};
-var peopleContainedInUseCase = {usecase1 : "3-4-5", 
-                                usecase2 : "3-4-5",
-                                usecase3 : "1-2-3-4-5-6-7-8-9",
+                                fs10 : "11",
+                                fs11 : "12"};
+var peopleContainedInUseCase = {usecase1 : "3-4-5-12", 
+                                usecase2 : "3-4-5-12",
+                                usecase3 : "1-2-3-4-5-6-7-8-9-12",
                                 usecase4 : "1-2-3-4-5-6-7-8-9-11",
                                 usecase5 : "1",
                                 usecase6 : "10"};
-var peopleContainedInUseCaseM = {fuc1 : "3-4-5", 
-                                fuc2 : "3-4-5",
-                                fuc3 : "1-2-3-4-5-6-7-8-9-10",
+var peopleContainedInUseCaseM = {fuc1 : "3-4-5-12", 
+                                fuc2 : "3-4-5-12",
+                                fuc3 : "1-2-3-4-5-6-7-8-9-10-12",
                                 fuc4 : "1-2-3-4-5-6-7-8-9-11",
                                 fuc5 : "1",
                                 fuc6 : "10"};
