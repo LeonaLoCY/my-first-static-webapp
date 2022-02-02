@@ -47,14 +47,14 @@ a:focus{
 }
 .bg-blue{
 	background-color: var(--assurity-blue);
-	background-image: url(./images/desktop-bg-line_dark.png);
+	background-image: url(https://assurity.sg/assets/images/desktop-bg-line_dark.png);
   background-position: center;
   background-size: 1000px auto;
   background-repeat: repeat-y;
 }
 .bg-blue-2{
 	background-color: var(--assurity-blue-2);
-	background-image: url(./images/desktop-bg-line_dark.png);
+	background-image: url(https://assurity.sg/assets/images/desktop-bg-line_dark.png);
   background-position: center;
   background-size: 1000px auto;
   background-repeat: repeat-y;
@@ -64,14 +64,14 @@ a:focus{
 }
 .bg-beige{
 	background-color: var(--assurity-beige);
-	background-image: url(./images/desktop-bg-line_light.png);
+	background-image: url(https://assurity.sg/assets/images/desktop-bg-line_light.png);
   background-position: center;
   background-size: 1000px auto;
   background-repeat: repeat-y;
 }
 .bg-beige-mid{
 	background-color: var(--assurity-beige-mid);
-	background-image: url(./images/desktop-bg-line_light.png);
+	background-image: url(https://assurity.sg/assets/images/desktop-bg-line_light.png);
   background-position: center;
   background-size: 1000px auto;
   background-repeat: repeat-y;
@@ -415,7 +415,7 @@ a.nav-link:hover,a.nav-link:active,a.nav-link.active{
 	letter-spacing: 0.5px;
 }
 .page-home #section-1{
-	background: url('./images/desktop-masthead.jpg');
+	background: url('https://assurity.sg/assets/images/desktop-masthead.jpg');
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -460,7 +460,7 @@ a.nav-link:hover,a.nav-link:active,a.nav-link.active{
 	padding-bottom: 100px;
 }
 .page-home #section-login{
-	background: url('./images/desktop-login.jpg');
+	background: url('https://assurity.sg/assets/images/desktop-login.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -602,7 +602,7 @@ a.nav-link:hover,a.nav-link:active,a.nav-link.active{
 }
 
 .page-home #section-4{
-	background: url('./images/home-resources-bg.jpg');
+	background: url('https://assurity.sg/assets/images/home-resources-bg.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -631,7 +631,7 @@ a.nav-link:hover,a.nav-link:active,a.nav-link.active{
 }
 @media only screen and (max-width: 767px) {
 	.page-home #section-1{
-		background: url('./images/mobile-home-masthead.jpg');
+		background: url('https://assurity.sg/assets/images/mobile-home-masthead.jpg');
 		background-size: cover;
 		-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -643,7 +643,7 @@ a.nav-link:hover,a.nav-link:active,a.nav-link.active{
 		padding: 30px 20px;
 	}
 	.page-home #section-login{
-		background: url('./images/mobile-product-bg.jpg');
+		background: url('https://assurity.sg/assets/images/mobile-product-bg.jpg');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -666,7 +666,7 @@ a.nav-link:hover,a.nav-link:active,a.nav-link.active{
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 	.page-home #section-1{
-		background: url('./images/desktop-masthead.jpg');
+		background: url('https://assurity.sg/assets/images/desktop-masthead.jpg');
 		background-size: cover;
 		background-position: top center;
 		background-repeat: no-repeat;
@@ -675,7 +675,7 @@ a.nav-link:hover,a.nav-link:active,a.nav-link.active{
 		padding: 30px;
 	}
 	.page-home #section-login{
-		background: url('./images/desktop-login.jpg');
+		background: url('https://assurity.sg/assets/images/desktop-login.jpg');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -689,7 +689,7 @@ a.nav-link:hover,a.nav-link:active,a.nav-link.active{
 		margin-right: 30px;
 	}
 	.page-home #section-4{
-		background: url('./images/mobile-resources-bg.png');
+		background: url('https://assurity.sg/assets/images/mobile-resources-bg.png');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -714,7 +714,7 @@ a.nav-link:hover,a.nav-link:active,a.nav-link.active{
     margin-bottom: 20px;
 	}
 	.page-home #section-login{
-		background: url('./images/desktop-login.jpg');
+		background: url('https://assurity.sg/assets/images/desktop-login.jpg');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -751,7 +751,7 @@ a.nav-link:hover,a.nav-link:active,a.nav-link.active{
 		margin-top: 20px;
 	}
 	.page-home #section-4{
-		background: url('./images/mobile-resources-bg.png');
+		background: url('https://assurity.sg/assets/images/mobile-resources-bg.png');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -936,7 +936,7 @@ footer{
 	z-index: 10;
 }
 .page-about #section-1 .section-1-left{
-	background: url('./images/about-introduction-bg.jpg');
+	background: url('https://assurity.sg/assets/images/about-introduction-bg.jpg');
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -988,7 +988,7 @@ footer{
 }
 .page-about #img-float-2{
 	position: absolute;
-  top: 1550px;
+  top: 1450px;
   left: -90px;
   width: 300px;
   z-index: 10;
@@ -1074,7 +1074,7 @@ footer{
 }
 .vision-bg{
 	position: absolute;
-	bottom: 20px;
+	bottom: 0;
 	height: 70px;
 }
 
@@ -1099,43 +1099,6 @@ footer{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23505050'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
-@media only screen and (max-width: 767px){
-	.page-about #img-float-1 {
-    top: 2500px;
-	}
-	.page-about #img-float-2 {
-    top: 1200px;
-    left: 20px;
-	}
-	.govtech-logo,.nca-logo{
-		width: 80px !important;
-	}
-}
-@media only screen and (max-width: 1024px) and (min-width: 769px){
-	.page-about #img-float-2 {
-    top: 1030px;
-		left: 50px;
-	}
-	.page-about #section-1 .section-1-left {
-		height: 800px;
-	}
-	.page-about #img-float-1 {
-    top: 2500px;
-	}
-	.page-about #img-float-2 {
-    top: 1350px;
-    left: 50px;
-	}
-	.split-box-right {
-    margin-top: 0 !important;
-	}
-	.white-sep-hor{
-		display: none !important;
-	}
-	.white-sep-vert{
-		display: block !important;
-	}
-}
 @media only screen and (max-width: 768px){
 	.page-about #section-1{
     margin-left: 20px;
@@ -1166,9 +1129,6 @@ footer{
 	.ndi-box, .page-about .ndi-box{
 		padding: 50px 20px 150px 20px;
 	}
-	.split-box-right{
-		margin-top: 0 !important;
-	}
 	.page-about #section-3{
 		height: auto;
 	}
@@ -1188,7 +1148,69 @@ footer{
     height: auto;
 	}
 }
-@media only screen and (min-width: 768px) and (max-width: 1199px){
+@media only screen and (max-width: 767px){
+	.page-about #img-float-1 {
+    top: 2450px;
+	}
+	.page-about #img-float-2 {
+    top: 1200px;
+    left: 20px;
+	}
+	.govtech-logo,.nca-logo{
+		width: 80px !important;
+	}
+}
+@media only screen and (max-width: 375px){
+	.about-gov-logo img{
+		width: 60px;
+		object-fit: contain;
+	}
+	.govtech-logo,.nca-logo{
+		width: 60px !important;
+	}
+}
+@media only screen and (max-width: 767px) and (min-width: 450px){
+	.page-about #img-float-1 {
+    top: 2300px;
+	}
+	.page-about #img-float-2 {
+    top: 1100px;
+    left: 20px;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+	.page-about #section-1 .section-1-left {
+		height: 800px;
+	}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+	.page-about #img-float-1 {
+    top: 2300px;
+	}
+	.page-about #img-float-2 {
+    top: 1300px;
+    left: 50px;
+	}
+}
+@media only screen and (max-width: 1199px) and (min-width: 1024px) {
+	.white-sep-hor{
+		display: none !important;
+	}
+	.white-sep-vert{
+		display: block !important;
+	}
+	.page-about #img-float-1 {
+    top: 2400px;
+	}
+	.page-about #img-float-2 {
+    top: 1300px;
+    left: 50px;
+	}
+	.page-about #section-1 .section-1-left {
+    height: 800px;
+	}
+}
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
 	.page-about .page-header-img, .page-about .page-header-img-mobile {
 		height: 40vh;
 	}
@@ -1201,8 +1223,8 @@ footer{
 		display: block;
 		text-align: center;
 	}
-	.nca-box{
-		padding: 200px 20px 50px 20px;
+	.split-box-right{
+		margin-top: 0 !important;
 	}
 }
 @media only screen and (min-width: 1200px) {
@@ -1219,7 +1241,8 @@ footer{
 	}
 
 	.page-about #img-float-2 {
-    top: 1500px;
+    top: 1300px;
+    left: -100px;
 	}
 }
 
@@ -1290,7 +1313,14 @@ footer{
 .member-role,.member-desc{
 	font-size: 0.75em;
 }
-
+@media only screen and (min-width: 1600px){
+	.member{
+		width: 600px;
+	}
+	.member-inner{
+		margin: 0 50px 80px 50px;
+	}
+}
 @media only screen and (max-width: 768px){
 	.section-team {
 	    padding-top: 50px;
@@ -1444,7 +1474,7 @@ footer{
 
 /* PRODUCTS */
 .product-header{
-	background: url('./images/products/product listing-masthead.png');
+	background: url('https://assurity.sg/assets/images/products/product listing-masthead.png');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -1518,7 +1548,7 @@ a.tag{
 
 /* CONTACT US */
 .contact-header{
-	background: url('./images/contact-masthead.jpg');
+	background: url('https://assurity.sg/assets/images/contact-masthead.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1575,7 +1605,7 @@ a.tag{
 }
 @media only screen and (max-width: 768px) {
 	.contact-header{
-		background: url('./images/mobile-contact-masthead.jpg');
+		background: url('https://assurity.sg/assets/images/mobile-contact-masthead.jpg');
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
@@ -1624,7 +1654,7 @@ a.tag{
 	padding-bottom: 50px;
 }
 .err-bg{
-	background: url('./images/error-404-bg.jpg');
+	background: url('https://assurity.sg/assets/images/error-404-bg.jpg');
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -1658,7 +1688,7 @@ a.tag{
 		margin-bottom: 30px;
 	}
 	.err-bg{
-		background: url('./images/mobile-error-404.jpg');
+		background: url('https://assurity.sg/assets/images/mobile-error-404.jpg');
 		background-size: contain;
     background-position: center;
     background-attachment: initial;
@@ -1787,7 +1817,7 @@ a.tag{
   margin-left: 30px;
 }
 .page-product #section-3{
-	background: url('./images/queries-cta-bg.png');
+	background: url('https://assurity.sg/assets/images/queries-cta-bg.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1982,7 +2012,7 @@ a.tag{
 	align-items: center;
 }
 .page-resources #section-cta{
-	background: url('./images/resources-cta-bg.png');
+	background: url('https://assurity.sg/assets/images/resources-cta-bg.png');
 	background-size: cover;
 	background-position: right;
 	background-repeat: no-repeat;
@@ -1996,7 +2026,7 @@ a.tag{
 
 /* EVENTS */
 .event-header{
-	background: url('./images/events-masthead.png');
+	background: url('https://assurity.sg/assets/images/events-masthead.png');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -2072,7 +2102,7 @@ a.tag{
     padding-right: 50px;
 	}
 	.page-resources #section-cta{
-		background: url('./images/mobile-resources-cta-bg.png');
+		background: url('https://assurity.sg/assets/images/mobile-resources-cta-bg.png');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -2574,7 +2604,7 @@ a.tag{
     margin-top: 30px;
   }
   .page-home #section-1{
-		background: url('./images/desktop-masthead.jpg');
+		background: url('https://assurity.sg/assets/images/desktop-masthead.jpg');
 		background-size: cover;
 		background-position: top center;
 		background-repeat: no-repeat;

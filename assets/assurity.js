@@ -1,6 +1,6 @@
 AOS.init();
 
-$('.last-updated').text("3 January 2022");
+$('.last-updated').text("12 November 2021");
 
 $(window).scroll(function () {
     var yvalue = $(this).scrollTop() * 0.1;
@@ -84,12 +84,12 @@ function displaySelectedJobs(cases){
     $('#job-'+entry).removeClass('disnone');
   });
 }
-var jobsContainedInCategories = {cat1 : "9-10-12-13-15", 
-                                cat2 : "1-2-3-4-6-7-8-11-14-16-17-18-19",
+var jobsContainedInCategories = {cat1 : "2-3-4", 
+                                cat2 : "1-6-7-8-9-11-12",
                                 cat3 : "",
                                 cat4 : "",
                                 cat5 : "",
-                                cat6 : ""};
+                                cat6 : "10"};
 $('.page-join .filter-cat').click(function(){
   var catID = $(this).attr('id').replace("-", "");
   $('#dropdown-cat-label').text($(this).text());
@@ -115,48 +115,38 @@ function displaySelectedTestimonials(cases){
     $('#testimonial-'+entry).removeClass('disnone');
   });
 }
-var peopleContainedInProducts = {product1 : "3-4-5-12", 
-                                product2 : "1-2-3-4-5-6-7-8-9-11-12",
-                                product3 : "1",
-                                product4 : "10"};
-var peopleContainedInProductsM = {fp1 : "3-4-5-12", 
-                                fp2 : "1-2-3-4-5-6-7-8-9-11-12",
-                                fp3 : "1",
-                                fp4 : "10"};
+var peopleContainedInProducts = {product1 : "3-4-5", 
+                                product2 : "1-2-3-4-5-6-7",
+                                product3 : "1"};
+var peopleContainedInProductsM = {fp1 : "3-4-5", 
+                                fp2 : "1-2-3-4-5-6-7",
+                                fp3 : "1"};
 var peopleContainedInSectors = {sector1 : "5", 
                                 sector2 : "2",
                                 sector3 : "3",
                                 sector4 : "4",
-                                sector5 : "6-10",
+                                sector5 : "6",
                                 sector6 : "1",
-                                sector7 : "7",
-                                sector8 : "8",
-                                sector9 : "9",
-                                sector10 : "11",
-                                sector11 : "12"};
+                                sector7 : "7" };
 var peopleContainedInSectorsM = {fs1 : "5", 
                                 fs2 : "2",
                                 fs3 : "3",
                                 fs4 : "4",
-                                fs5 : "6-10",
+                                fs5 : "6",
                                 fs6 : "1",
-                                fs7 : "7",
-                                fs8 : "8",
-                                fs9 : "9",
-                                fs10 : "11",
-                                fs11 : "12"};
-var peopleContainedInUseCase = {usecase1 : "3-4-5-12", 
-                                usecase2 : "3-4-5-12",
-                                usecase3 : "1-2-3-4-5-6-7-8-9-12",
-                                usecase4 : "1-2-3-4-5-6-7-8-9-11",
+                                fs7 : "7" };
+var peopleContainedInUseCase = {usecase1 : "3-4-5", 
+                                usecase2 : "3-4-5",
+                                usecase3 : "1-2-3-4-5-6-7",
+                                usecase4 : "1-2-3-4-5-6-7",
                                 usecase5 : "1",
-                                usecase6 : "10"};
-var peopleContainedInUseCaseM = {fuc1 : "3-4-5-12", 
-                                fuc2 : "3-4-5-12",
-                                fuc3 : "1-2-3-4-5-6-7-8-9-10-12",
-                                fuc4 : "1-2-3-4-5-6-7-8-9-11",
+                                usecase6 : "1" };
+var peopleContainedInUseCaseM = {fuc1 : "3-4-5", 
+                                fuc2 : "3-4-5",
+                                fuc3 : "1-2-3-4-5-6-7",
+                                fuc4 : "1-2-3-4-5-6-7",
                                 fuc5 : "1",
-                                fuc6 : "10"};
+                                fuc6 : "1" };
 
 $('.page-testimonial .filter-product').click(function(){
   clearCSFilters();
